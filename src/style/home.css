@@ -41,7 +41,7 @@ html {
 } */
 .enter:hover {
   cursor: pointer;
-  background: linear-gradient(45deg, #4e5890, #619be5);
+  background: linear-gradient(117deg, #4e5890, #619be5);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
