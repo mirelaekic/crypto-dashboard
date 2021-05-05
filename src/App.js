@@ -8,6 +8,7 @@ import { AnimatePresence } from "framer-motion";
 import Dashboard from "./pages/Dashboard";
 function App() {
   const location = useLocation();
+  
   return (
       <AnimatePresence>
         <Switch location={location} key={location.pathname}>
