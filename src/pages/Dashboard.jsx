@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react'
 import "../style/Dashboard.css"
+
 const pageVariants = {
     initial: {
       opacity: 0,
@@ -39,7 +40,9 @@ export default function Dashboard() {
         transition={pageTransition}>
             <section>
                 <h1 className="dashboard-title">Ranking</h1>
-                
+                <ul>
+
+                </ul>
             </section>
         </motion.div>
     )
